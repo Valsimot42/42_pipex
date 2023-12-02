@@ -17,7 +17,7 @@
 * Add two new files in the `pipex` directory: `file1` and `file2`.
 * Execute `make` in terminal.
 * Execute the following command in the terminal: `./pipex file1 "ls -l" "wc -l" file2`
-* Change the commands and add more for testing if you wish.
+* Change the shell commands and add more for testing if you wish.
 
 ---
 <h3><b>¤ Introduction ¤</b></h3>
@@ -41,6 +41,6 @@ If the subject requires it, you must submit a Makefile which will compile your s
 
 <p align="left̨">
 
-* Do NOT implement the buffer management of the original printf().
-* Command ar must be used to to create the library. Using the libtool command is forbidden.
-* `libftprintf.a` must be created at the root of repository.
+* Your program will be executed as follows: `./pipex file1 cmd1 cmd2 file2`
+* It must behave exactly the same as the shell command: `$> < file1 cmd1 | cmd2 > file2`
+
